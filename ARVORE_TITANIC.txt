@@ -1,0 +1,16 @@
+Sex = Female
+|   No of Parents or Children on Board > 4.500: No {Yes=0, No=4}
+|   No of Parents or Children on Board ≤ 4.500
+|   |   No of Siblings or Spouses on Board > 4.500: No {Yes=0, No=2}
+|   |   No of Siblings or Spouses on Board ≤ 4.500
+|   |   |   Passenger Fare > 35.562: Yes {Yes=101, No=3}
+|   |   |   Passenger Fare ≤ 35.562
+|   |   |   |   No of Parents or Children on Board > 3.500: No {Yes=0, No=3}
+|   |   |   |   No of Parents or Children on Board ≤ 3.500
+|   |   |   |   |   Passenger Fare > 33.688: No {Yes=0, No=2}
+|   |   |   |   |   Passenger Fare ≤ 33.688
+|   |   |   |   |   |   No of Siblings or Spouses on Board > 2.500
+|   |   |   |   |   |   |   No of Parents or Children on Board > 0.500: No {Yes=2, No=11}
+|   |   |   |   |   |   |   No of Parents or Children on Board ≤ 0.500: Yes {Yes=2, No=0}
+|   |   |   |   |   |   No of Siblings or Spouses on Board ≤ 2.500: Yes {Yes=134, No=58}
+Sex = Male: No {Yes=110, No=484}
